@@ -3,12 +3,12 @@ pipeline {
 	stages {
 		stage ("Compile") {
 			steps {
-		    	gradlew buildApp
+		    	./gradlew.bat buildApp
 		    }
 		}
 		stage ("Unit test") {
 			steps {
-		    	gradlew test
+		    	./gradlew.bat test
 		    }
 		}
 	}
