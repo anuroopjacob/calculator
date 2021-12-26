@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage ("Compile") {
 			steps {
-		    	gradlew compileJava
+		    	gradlew buildApp
 		    }
 		}
 		stage ("Unit test") {
