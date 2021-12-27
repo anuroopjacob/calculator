@@ -7,6 +7,7 @@ import static org.junit.Assert.assertNotNull;
 class CalculatorTest {
 	
 	private Calculator calculator = new Calculator();
+	//Tests are below
 
 	@Test
 	void testSum() {
